@@ -1,7 +1,34 @@
-This project contains a Java program that generates all possible anagrams of a given word.
-An anagram is formed by rearranging the letters of a word.
+# Anagram Program
 
-For example, if the input word is SIX, the program displays the anagrams:
-SIX, IXS, XSI, ISX, SXI, and XIS.
+This Java program prints all anagrams of a word.
+The logic is written by me.
 
-The program is written in Java and can be compiled and run using a Java compiler.
+## What this program does
+- Takes a word as input
+- Changes the order of characters
+- Prints all possible anagrams
+- Counts total anagrams
+
+## Example
+Input:
+abc
+
+Output:
+abc acb bac bca cab cba
+
+## What I used
+- Arrays
+- Loops
+- Sorting
+- Character logic
+
+## Why I made this
+I made this to understand how words can be rearranged.
+It helped me improve my logic thinking.
+
+## How to run
+- Compile the program
+- Enter a word
+- Program will show all anagrams
+
+This program is made by me for learning Java.
