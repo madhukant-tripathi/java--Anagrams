@@ -8,7 +8,8 @@ class AnagramsRecursion
         f("",s);
         System.out.println("\nTotal anagrams: "+(c-1));
     }
-    static void f(String p,String s){
+    static void f(String p,String s)
+    {
         if(s.length()==0)
         {
             System.out.print(p);
@@ -27,4 +28,5 @@ class AnagramsRecursion
                 f(p+s.charAt(i), s.substring(0,i)+s.substring(i+1));
         }
     }
+
 }
