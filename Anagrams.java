@@ -14,7 +14,7 @@ public class Anagrams
         {
             for(int j=0;j<n-i-1;j++)
             {
-                if(a[j>a[j+1])
+                if(a[j]>a[j+1])
                 {
                     char temp=a[j];
                     a[j]=a[j+1];
@@ -54,4 +54,5 @@ public class Anagrams
         }
         return true;
     }
+
 }
